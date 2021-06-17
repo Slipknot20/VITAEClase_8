@@ -1,0 +1,111 @@
+body{
+    font-family: 'Rubik', sans-serif;
+    background-color: snow;
+}
+
+header{
+    background-image: url(../imagen\ de\ fondo.jpg);
+    height: 400px;
+    text-align: center;
+}
+
+nav{
+    position: absolute;
+    top: 8%;   
+    right: 60px;
+}
+
+div p {
+    color: white;
+    font-weight: bold;
+    font-family: 'Rubik', sans-serif;
+    font-size: 15px;
+    border: 2px solid white;
+    border-radius: 18px;
+    letter-spacing: 10px;
+    width: 230px;
+}
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    font-family: 'Rubik', sans-serif;
+    color: white;
+    font-size: x-large;
+    text-align: left;
+    letter-spacing: 5px;
+}
+
+img {
+    border-radius: 70%;
+    height: 60%;
+    margin: auto;
+}
+
+.divi{
+    padding-left: 365px;
+    padding-right: 350px;
+}
+
+h2{
+    text-align: center;
+    background-color: white;
+    color: #005677;
+    letter-spacing: 10px;
+    border: 2px solid silver;
+}
+h3 {
+    background-color: white;
+    color: #005677;
+    padding: 4px;
+    letter-spacing: 10px;
+    border: 2px solid silver;
+}
+
+.itali{
+    font-style: italic;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+#Texto1 {
+    text-align: center;
+    font-family: Times New Roman;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    color: #005677;
+    background-color: #C4C4C4;
+    word-spacing: 35px;
+    letter-spacing: 12px;
+}
+
+.fecha{
+    font-weight: bold;
+    font-style: normal;
+}
+
+#estilo{
+    list-style: none;
+    list-style-position:outside;
+}
+
+.salto{
+    white-space: pre;
+}
+
+#pie{
+    background-color: #005677;
+    color: white;
+    word-spacing: 12px;
+    height: 80px;
+    text-align: center;
+}
+footer span{
+    position: unset;
+}
+
+footer img{
+    height: 50px;
+    margin-top: 10px;
+}
